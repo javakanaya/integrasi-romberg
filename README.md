@@ -20,7 +20,8 @@ Function diatas berfungsi untuk mendapatkan nilai dari Metode Trapezoida dengan 
 `a` sebagai slope bawah\
 `b` sebagai slope atas\
 `h` sebagai lebar pias
-yang mengimplementasikan rumus berikut
+
+Yang mengimplementasikan rumus berikut
 
 ![image](https://user-images.githubusercontent.com/70834506/208916277-00cff3a3-32d2-4ac9-99f4-6f1f906f2f03.png)
 
