@@ -8,6 +8,9 @@
 - Afiq Fawwaz Haidar - 5025211246
 
 ## Penjelasan Integrasi Romberg
+Metode integrasi Romberg didasarkan pada perluasan ekstrapolasi Richardson untuk memperoleh nilai integrasi yang semakin baik. Pada setiap penerapan ekstrapolasi Richarson akabn menaikkan orde galat pada hasil solusinya sebesar dua, misalkan `O(h^2N)` → `O(h^(2N+2))`
+
+## Implementasi Integrasi Romberg pada Bahasa Python
 
 ![image](https://user-images.githubusercontent.com/70834506/208913594-adb379b9-5a81-47f5-903c-a6391ff532c9.png)
 
