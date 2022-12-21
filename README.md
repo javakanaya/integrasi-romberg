@@ -26,8 +26,23 @@ yang mengimplementasikan rumus berikut
 
 ![image](https://user-images.githubusercontent.com/70834506/208916693-7522093d-c409-4ac0-956b-c2532b6dd219.png)
 
-Function diatas berfungsi untuk mendapatkan nilai dari Integrasi Romberg. Iterasi dalam Integrasi Romberg dinyatakan dalam Matrix `i x i` dimana `i` adalah jumlah iterasi yang dilakukan pada Integrasi Romberg
+Function diatas berfungsi untuk mendapatkan nilai dari Integrasi Romberg. Iterasi dalam Integrasi Romberg dinyatakan dalam Matrix `j x k` dimana `j = k = i`, dengan `i` adalah jumlah iterasi yang dilakukan pada Integrasi Romberg
 
-![image](https://user-images.githubusercontent.com/70834506/208918397-3fce5ab3-79e3-47e4-aa53-3a997b086767.png)
+>(1,1) (1,2) (1,3) … (1,i)\
+(2,1) (2,2) … (2,i-1)\
+...\
+(i,1)
 
+Lalu carilah nilai integral Trapezoida pada masing-masing index matrix dengan rumus berikut
 
+![image](https://user-images.githubusercontent.com/70834506/208927463-504ad6d3-cb3a-4422-ba0d-0f0215937280.png)
+
+Iterasi dilakukan sebagai berikut
+
+> Iterasi 1 : `I(1,1)`\
+Iterasi 2 : `I(1,1)` & `I(2,1)` → `(1,2)`\
+Iterasi 3 :`I(2,1)` & `I(3,1)` → `I(1,2)` & `I(2,2)` → `I(3,1)`\
+...\
+Iterasi i :`I(i-1,1)` & `I(i,1)` → `I(i-2,2)` & `I(i-1,2)` → ⋯ → `I(1,i)`
+
+Sehingga didapatkan hasil Integrasi dengan tingkat error paling kecil pada `I(1,i)`
