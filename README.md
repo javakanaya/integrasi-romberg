@@ -18,7 +18,7 @@ Function diatas berfungsi untuk mendapatkan nilai dari `F(x)` yang digunakan dal
 
 ![image](https://user-images.githubusercontent.com/70834506/208913942-67267733-e1d3-4eb9-b5cc-ea6e8fafb46e.png)
 
-Function diatas berfungsi untuk mendapatkan nilai dari Metode Trapezoida dengan :
+Function diatas berfungsi untuk mendapatkan nilai integral dari Metode Trapezoida dengan :
 >`n` sebagai jumlah pias yang digunakan\
 `a` sebagai slope bawah\
 `b` sebagai slope atas\
@@ -49,4 +49,4 @@ Iterasi 3 :`I(2,1)` & `I(3,1)` → `I(1,2)` & `I(2,2)` → `I(3,1)`\
 ...\
 Iterasi i :`I(i-1,1)` & `I(i,1)` → `I(i-2,2)` & `I(i-1,2)` → ⋯ → `I(1,i)`
 
-Sehingga didapatkan hasil Integrasi dengan tingkat error paling kecil pada `I(1,i)`
+Sehingga didapatkan hasil Integral dengan tingkat error paling kecil pada `I(1,i)`
