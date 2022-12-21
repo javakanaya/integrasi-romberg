@@ -52,13 +52,15 @@ def rombergIntegration(a, b, iteration):
 
     # menampilkan hasil
     print("Step\tStep Size\tResult")
+    stepSize = b - a
     for i in range(iteration):
             step = 2 ** (i)
-            stepSize = b - a / step
+            
+            stepSize = stepSize / step    
 
             print('%d\t%5f\t' % (step, stepSize), end='')
             print(I[i + 1, 1:])
-                
+            
     print("hasil akhir :", I[1, iteration])
 
 rombergIntegration(0, 4, 5)
