@@ -61,4 +61,4 @@ def rombergIntegration(a, b, iteration):
                 
     print("hasil akhir :", I[1, iteration])
 
-rombergIntegration(0, 4, 1)
+rombergIntegration(0, 4, 5)
