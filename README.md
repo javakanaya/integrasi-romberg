@@ -17,3 +17,7 @@ Function diatas berfungsi untuk mendapatkan nilai dari Metode Trapezoida dengan 
 `n` sebagai jumlah pias yang digunakan
 `a` sebagai slope bawah
 `b` sebagai slope atas
+
+## Implementasi Algoritma Integrasi Romberg dalam Bahasa Python
+
+![image](https://user-images.githubusercontent.com/71255346/208915878-fad7c6c0-7996-4785-a2a9-5734a3021621.png)
